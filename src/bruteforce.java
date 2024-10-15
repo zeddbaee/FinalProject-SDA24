@@ -1,4 +1,4 @@
-public class BruteForce {
+public class bruteforce {
 
     private static final String[] REGIONS = { "Surakarta", "Boyolali", "Klaten", "Sukoharjo", "Wonogiri", "Sragen", "Karanganyar" };
     private static final int[][] ADJACENCY_MATRIX = {
@@ -65,7 +65,7 @@ public class BruteForce {
     }
 
     public static void main(String[] args) {
-        BruteForce solver = new BruteForce();
+        bruteforce solver = new bruteforce();
 
         System.out.println("Bruteforce (Iterative)\n");
         long startTime = System.currentTimeMillis();
