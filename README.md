@@ -1,6 +1,5 @@
-<h1 align="center">Project Penerapan Algoritma Backtracking</h1>
-<h1 align="center">Untuk Map Coloring pada Peta Solo Raya</h1>
-<h3 align="center">S1 Sains Data UNS Tahun Ajaran 2024/2025</h3>
+<h1 align="center">Project Penerapan Algoritma Backtracking Untuk Map Coloring pada Peta Solo Raya</h1>
+<h3 align="center">Semester Genap - S1 Sains Data UNS Tahun Ajaran 2023/2024</h3>
 
 <br>
 <p align="center" >
