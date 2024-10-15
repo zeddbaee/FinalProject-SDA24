@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class solorayamap_finalbacktracking {
+public class solorayamap_backtracking {
     private static final String[] REGIONS = {"Surakarta", "Boyolali", "Klaten", "Sukoharjo", "Wonogiri", "Sragen", "Karanganyar"};
     private static final int[][] ADJACENCY_MATRIX = {
             {0, 1, 0, 1, 0, 0, 1}, // Surakarta
@@ -32,7 +32,7 @@ public class solorayamap_finalbacktracking {
     private Color[] solution;
     private int minimumColors;
 
-    public solorayamap_finalbacktracking() {
+    public solorayamap_backtracking() {
         solution = new Color[REGIONS.length];
         minimumColors = 0;
     }
@@ -154,7 +154,7 @@ public class solorayamap_finalbacktracking {
     }
 
     public static void main(String[] args) {
-        solorayamap_finalbacktracking mapColoring = new solorayamap_finalbacktracking();
+        solorayamap_backtracking mapColoring = new solorayamap_backtracking();
         mapColoring.solve();
     }
 }
